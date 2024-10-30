@@ -39,6 +39,8 @@ Controladores:
 ## CORS (Cross-Origin Resource Sharing) 
 
 Dado que el frontend se ejecutará en un servidor separado, habilitar CORS en el backend.
+
+```C#
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowLocalhost3001",
@@ -49,7 +51,7 @@ builder.Services.AddCors(options =>
                    .AllowAnyMethod();
         });
 });
-
+``` 
 app.UseCors("AllowLocalhost3001");
 
 # Ejecución del Frontend
