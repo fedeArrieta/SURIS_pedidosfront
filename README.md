@@ -5,13 +5,13 @@ La interfaz de usuario permite seleccionar artículos y un vendedor para luego e
 
 # Requisitos Previos
 
-Para ejecutar el Frontend, tener las siguientes herramientas instaladas:
-Node.js (Versión 14 o superior)
-npm (Normalmente se instala junto con Node.js)
+* Para ejecutar el Frontend, tener las siguientes herramientas instaladas:
+* Node.js (Versión 14 o superior)
+* npm (Normalmente se instala junto con Node.js)
 
 Para ejecutar el backend, tener las siguientes herramientas instaladas:
-.NET SDK 8.0 o superior - Descargar .NET SDK
-Visual Studio 2022 o Visual Studio Code 
+* .NET SDK 8.0 o superior - Descargar .NET SDK
+* Visual Studio 2022 o Visual Studio Code 
 
 # Instalación
 
