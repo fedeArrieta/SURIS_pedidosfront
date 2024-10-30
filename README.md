@@ -51,8 +51,10 @@ builder.Services.AddCors(options =>
                    .AllowAnyMethod();
         });
 });
-``` 
+
 app.UseCors("AllowLocalhost3001");
+``` 
+
 
 # Ejecución del Frontend
 
