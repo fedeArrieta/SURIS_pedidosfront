@@ -27,14 +27,14 @@ cd tu-repositorio-backend
 Tener los siguientes modelos y controladores en tu proyecto:
 
 Modelos:
-    Articulo.cs
-    Pedido.cs
-    Vendedor.cs
+    * Articulo.cs
+    * Pedido.cs
+    * Vendedor.cs
 
 Controladores:
-    ArticulosController.cs – para manejar la lógica de los artículos (GET para obtener los artículos).
-    VendedoresController.cs – para manejar la lógica de los vendedores (GET para obtener los vendedores).
-    PedidosController.cs – para manejar la lógica de generación de pedidos (POST para crear un nuevo pedido).
+    * ArticulosController.cs – para manejar la lógica de los artículos (GET para obtener los artículos).
+    * VendedoresController.cs – para manejar la lógica de los vendedores (GET para obtener los vendedores).
+    * PedidosController.cs – para manejar la lógica de generación de pedidos (POST para crear un nuevo pedido).
 
 ## CORS (Cross-Origin Resource Sharing) 
 
@@ -67,9 +67,9 @@ Esto abrirá la aplicación en el  navegador predeterminado. Normalmente estará
 
 ## Archivos Importantes 
 
--src/components/PedidoForm.js: Este archivo es el componente principal para la creación de pedidos.
--src/PedidoForm.css: Contiene los estilos que se aplican al formulario de pedidos.
--package.json: Archivo donde se encuentran las dependencias y scripts del proyecto.
+* src/components/PedidoForm.js: Este archivo es el componente principal para la creación de pedidos.
+* src/PedidoForm.css: Contiene los estilos que se aplican al formulario de pedidos.
+* package.json: Archivo donde se encuentran las dependencias y scripts del proyecto.
 
 # Ejecutar el Backend
 
@@ -83,6 +83,6 @@ Esto iniciará la aplicación ASP.NET Core en https://localhost:7088/ por defect
 
 Verificar el correcto funcionamiento de los siguientes endpoints para la interacción con el frontend:
 
-Artículos: GET /api/articulos – Devuelve la lista de artículos.
-Vendedores: GET /api/vendedores – Devuelve la lista de vendedores.
-Pedidos: POST /api/pedido – Envía un nuevo pedido. El cuerpo de la solicitud debe incluir el vendedor y los artículos seleccionados.
+* Artículos: GET /api/articulos – Devuelve la lista de artículos.
+* Vendedores: GET /api/vendedores – Devuelve la lista de vendedores.
+* Pedidos: POST /api/pedido – Envía un nuevo pedido. El cuerpo de la solicitud debe incluir el vendedor y los artículos seleccionados.
