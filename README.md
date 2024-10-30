@@ -27,14 +27,14 @@ cd tu-repositorio-backend
 Tener los siguientes modelos y controladores en tu proyecto:
 
 Modelos:
-    * Articulo.cs
-    * Pedido.cs
-    * Vendedor.cs
+* Articulo.cs
+* Pedido.cs
+* Vendedor.cs
 
 Controladores:
-    * ArticulosController.cs – para manejar la lógica de los artículos (GET para obtener los artículos).
-    * VendedoresController.cs – para manejar la lógica de los vendedores (GET para obtener los vendedores).
-    * PedidosController.cs – para manejar la lógica de generación de pedidos (POST para crear un nuevo pedido).
+* ArticulosController.cs – para manejar la lógica de los artículos (GET para obtener los artículos).
+* VendedoresController.cs – para manejar la lógica de los vendedores (GET para obtener los vendedores).
+* PedidosController.cs – para manejar la lógica de generación de pedidos (POST para crear un nuevo pedido).
 
 ## CORS (Cross-Origin Resource Sharing) 
 
