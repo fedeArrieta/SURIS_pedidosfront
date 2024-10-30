@@ -15,7 +15,7 @@ Visual Studio 2022 o Visual Studio Code
 
 # Instalación
 
-Clonar el repositorio
+## Clonar el repositorio
 git clone https://github.com/fedeArrieta/SURIS_pedidosfront
 cd tu-repositorio-Frontend
 
