@@ -1,0 +1,50 @@
+.table-articulos {
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+  }
+  .table-articulos th {
+    text-align: center; 
+  }
+
+  .table-articulos th,
+  .table-articulos td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .col-descripcion {
+    width: 20%;  
+  }
+  
+  .col-precio,
+  .col-deposito {
+    text-align: right;
+  }
+
+
+.table-articulos tbody tr:nth-child(odd) {
+    background-color: #f9f9f9; 
+  }
+  
+  .table-articulos tbody tr:nth-child(even) {
+    background-color: #e0e0e0; 
+  }
+
+  /* Estilos para el botón de generar pedido */
+.btn-generar-pedido {
+    padding: 15px 30px;       
+    font-size: 20px;          
+    background-color: #4CAF50;
+    color: white;            
+    border: none;             
+    border-radius: 5px;       
+    cursor: pointer;          
+    width: 30%;               
+    max-width: 200px;          
+    text-align: center;        
+  }
+  
+  .btn-generar-pedido:hover {
+    background-color: #45a049; /* Color cuando el mouse pasa por encima del botón */
+  }
