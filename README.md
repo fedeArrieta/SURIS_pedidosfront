@@ -19,7 +19,7 @@ Para ejecutar el backend, tener las siguientes herramientas instaladas:
 git clone https://github.com/fedeArrieta/SURIS_pedidosfront
 cd tu-repositorio-Frontend
 
-git clone https://github.com/tu-usuario/tu-repositorio-backend.git
+git clone https://github.com/fedeArrieta/SURIS_pedidosback
 cd tu-repositorio-backend
 
 ## Revisar los Modelos y Controladores 
