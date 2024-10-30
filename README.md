@@ -22,7 +22,7 @@ cd tu-repositorio-Frontend
 git clone https://github.com/tu-usuario/tu-repositorio-backend.git
 cd tu-repositorio-backend
 
-* Revisar los Modelos y Controladores *
+## Revisar los Modelos y Controladores 
 
 Tener los siguientes modelos y controladores en tu proyecto:
 
@@ -36,7 +36,7 @@ Controladores:
     VendedoresController.cs – para manejar la lógica de los vendedores (GET para obtener los vendedores).
     PedidosController.cs – para manejar la lógica de generación de pedidos (POST para crear un nuevo pedido).
 
-* CORS (Cross-Origin Resource Sharing) *
+## CORS (Cross-Origin Resource Sharing) 
 
 Dado que el frontend se ejecutará en un servidor separado, habilitar CORS en el backend.
 builder.Services.AddCors(options =>
@@ -54,18 +54,18 @@ app.UseCors("AllowLocalhost3001");
 
 # Ejecución del Frontend
 
-* Configurar variables de entorno (si es necesario) *
+## Configurar variables de entorno (si es necesario) 
 
 Asegúrate de que el frontend pueda comunicarse correctamente con el backend. 
 Por defecto, el frontend está configurado para acceder a la API en https://localhost:7088/.
 
-* Ejecutar el frontend localmente *
+## Ejecutar el frontend localmente 
 
 Una vez instaladas las dependencias, se puede ejecutar la aplicación en modo de desarrollo con el siguiente comando:
 npm start
 Esto abrirá la aplicación en el  navegador predeterminado. Normalmente estará disponible en http://localhost:3000.
 
-* Archivos Importantes *
+## Archivos Importantes 
 
 -src/components/PedidoForm.js: Este archivo es el componente principal para la creación de pedidos.
 -src/PedidoForm.css: Contiene los estilos que se aplican al formulario de pedidos.
@@ -73,13 +73,13 @@ Esto abrirá la aplicación en el  navegador predeterminado. Normalmente estará
 
 # Ejecutar el Backend
 
-* Ejecutar el backend localmente *
+## Ejecutar el backend localmente 
 
 En la carpeta raíz del proyecto backend, ejecutar el siguiente comando para iniciar el servidor:
 dotnet run
 Esto iniciará la aplicación ASP.NET Core en https://localhost:7088/ por defecto
 
-* Endpoints del API *
+## Endpoints del API 
 
 Verificar el correcto funcionamiento de los siguientes endpoints para la interacción con el frontend:
 
